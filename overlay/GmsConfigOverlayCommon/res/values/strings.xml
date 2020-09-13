@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Title for the harmful app warning dialog. Play Protect is a brand name. [CHAR LIMIT=40] -->
+    <string name="harmful_app_warning_title">Play Protect warning</string>
+
+</resources>
