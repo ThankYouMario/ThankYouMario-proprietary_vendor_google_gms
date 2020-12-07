@@ -30,7 +30,7 @@ PRODUCT_PACKAGES += \
 
 # Properties
 PRODUCT_PRODUCT_PROPERTIES += \
-    ro.com.google.gmsversion=11_202009 \
+    ro.com.google.gmsversion=11_202011 \
     ro.opa.eligible_device=true \
     ro.setupwizard.rotation_locked=true \
     setupwizard.theme=glif_v3_light

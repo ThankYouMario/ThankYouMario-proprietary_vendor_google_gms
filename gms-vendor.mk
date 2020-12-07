@@ -92,10 +92,6 @@ PRODUCT_PACKAGES += \
     GoogleExtShared \
     GooglePrintRecommendationService \
     GooglePackageInstaller \
-    GoogleFeedback \
-    GoogleOneTimeInitializer \
-    GoogleServicesFramework \
-    SetupWizard \
     CalculatorGoogle \
     CalendarGoogle \
     Chrome \
@@ -124,4 +120,8 @@ PRODUCT_PACKAGES += \
     Turbo \
     Velvet \
     Wellbeing \
+    GoogleFeedback \
+    GoogleOneTimeInitializer \
+    GoogleServicesFramework \
+    SetupWizard \
     com.google.android.dialer.support
