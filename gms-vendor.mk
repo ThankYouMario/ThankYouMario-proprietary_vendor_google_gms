@@ -9,12 +9,14 @@ PRODUCT_COPY_FILES += \
     vendor/google/gms/proprietary/product/etc/default-permissions/default-permissions-google.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/default-permissions/default-permissions-google.xml \
     vendor/google/gms/proprietary/product/etc/permissions/com.google.android.dialer.support.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.google.android.dialer.support.xml \
     vendor/google/gms/proprietary/product/etc/permissions/privapp-permissions-google-comms-suite.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-google-comms-suite.xml \
+    vendor/google/gms/proprietary/product/etc/permissions/privapp-permissions-google-fi.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-google-fi.xml \
     vendor/google/gms/proprietary/product/etc/permissions/privapp-permissions-google-product.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-google-product.xml \
     vendor/google/gms/proprietary/product/etc/permissions/split-permissions-google.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/split-permissions-google.xml \
     vendor/google/gms/proprietary/product/etc/preferred-apps/google.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/preferred-apps/google.xml \
     vendor/google/gms/proprietary/product/etc/security/fsverity/play_store_fsi_cert.der:$(TARGET_COPY_OUT_PRODUCT)/etc/security/fsverity/play_store_fsi_cert.der \
     vendor/google/gms/proprietary/product/etc/sysconfig/google-hiddenapi-package-allowlist.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/google-hiddenapi-package-allowlist.xml \
     vendor/google/gms/proprietary/product/etc/sysconfig/google.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/google.xml \
+    vendor/google/gms/proprietary/product/etc/sysconfig/google_fi.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/google_fi.xml \
     vendor/google/gms/proprietary/product/etc/sysconfig/wellbeing.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/wellbeing.xml \
     vendor/google/gms/proprietary/product/usr/srec/en-US/APP_NAME.fst:$(TARGET_COPY_OUT_PRODUCT)/usr/srec/en-US/APP_NAME.fst \
     vendor/google/gms/proprietary/product/usr/srec/en-US/APP_NAME.syms:$(TARGET_COPY_OUT_PRODUCT)/usr/srec/en-US/APP_NAME.syms \
@@ -96,16 +98,19 @@ PRODUCT_PACKAGES += \
     Messages \
     Photos \
     TrichromeLibrary \
+    Tycho \
     WebViewGoogle \
     YouTube \
     AndroidAutoStub \
     CarrierServices \
     ConfigUpdater \
+    GCS \
     GmsCore \
     AndroidPlatformServices \
     GoogleDialer \
     GooglePartnerSetup \
     GoogleRestore \
+    NovaBugreportWrapper \
     Phonesky \
     Turbo \
     Velvet \

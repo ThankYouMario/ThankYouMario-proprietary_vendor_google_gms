@@ -203,6 +203,17 @@ android_app_import {
 }
 
 android_app_import {
+	name: "Tycho",
+	owner: "google",
+	apk: "proprietary/product/app/Tycho/Tycho.apk",
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	product_specific: true,
+}
+
+android_app_import {
 	name: "WebViewGoogle",
 	owner: "google",
 	apk: "proprietary/product/app/WebViewGoogle/WebViewGoogle.apk",
@@ -253,6 +264,18 @@ android_app_import {
 	name: "ConfigUpdater",
 	owner: "google",
 	apk: "proprietary/product/priv-app/ConfigUpdater/ConfigUpdater.apk",
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	product_specific: true,
+}
+
+android_app_import {
+	name: "GCS",
+	owner: "google",
+	apk: "proprietary/product/priv-app/GCS/GCS.apk",
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -314,6 +337,18 @@ android_app_import {
 	name: "GoogleRestore",
 	owner: "google",
 	apk: "proprietary/product/priv-app/GoogleRestore/GoogleRestore.apk",
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	product_specific: true,
+}
+
+android_app_import {
+	name: "NovaBugreportWrapper",
+	owner: "google",
+	apk: "proprietary/product/priv-app/NovaBugreportWrapper/NovaBugreportWrapper.apk",
 	presigned: true,
 	dex_preopt: {
 		enabled: false,

@@ -17,6 +17,7 @@ $(call inherit-product, vendor/google/gms/gms-vendor.mk)
 
 # Overlays
 PRODUCT_PACKAGES += \
+    GmsConfigFiOverlay \
     GmsConfigOverlayCommon \
     GmsConfigOverlayComms \
     GmsConfigOverlayGSA \
