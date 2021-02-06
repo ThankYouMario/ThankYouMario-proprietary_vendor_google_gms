@@ -24,6 +24,7 @@ PRODUCT_PACKAGES += \
     GmsContactsProviderOverlay \
     GmsSettingsOverlay \
     GmsSettingsProviderOverlay \
+    GmsSetupWizardOverlay \
     GmsSystemUIOverlay \
     GmsTelecommOverlay \
     GmsTelephonyOverlay \
