@@ -27,8 +27,7 @@ PRODUCT_PACKAGES += \
     GmsSetupWizardOverlay \
     GmsSystemUIOverlay \
     GmsTelecommOverlay \
-    GmsTelephonyOverlay \
-    TurboOverlay
+    GmsTelephonyOverlay
 
 # Properties
 PRODUCT_PRODUCT_PROPERTIES += \

@@ -112,7 +112,6 @@ PRODUCT_PACKAGES += \
     GoogleRestore \
     NovaBugreportWrapper \
     Phonesky \
-    Turbo \
     Velvet \
     Wellbeing \
     GoogleFeedback \
