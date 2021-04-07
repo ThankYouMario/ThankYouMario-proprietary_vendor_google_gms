@@ -154,6 +154,7 @@
         <permission name="android.permission.READ_LOGS"/>
     </privapp-permissions>
     <privapp-permissions package="com.google.android.gms">
+        <permission name="android.permission.ACCESS_CONTEXT_HUB"/>
         <permission name="android.permission.ACCESS_NETWORK_CONDITIONS"/>
         <permission name="android.permission.ACTIVITY_EMBEDDING"/>
         <permission name="android.permission.ALLOCATE_AGGRESSIVE"/>
@@ -169,6 +170,7 @@
         <permission name="android.permission.CONTROL_KEYGUARD_SECURE_NOTIFICATIONS"/>
         <permission name="android.permission.DISPATCH_PROVISIONING_MESSAGE"/>
         <permission name="android.permission.GET_APP_OPS_STATS"/>
+        <permission name="android.permission.INSTALL_LOCATION_TIME_ZONE_PROVIDER_SERVICE"/>
         <permission name="android.permission.INTENT_FILTER_VERIFICATION_AGENT"/>
         <permission name="android.permission.INTERACT_ACROSS_USERS"/>
         <permission name="android.permission.LOCAL_MAC_ADDRESS"/>
@@ -230,6 +232,7 @@
         <permission name="android.permission.REAL_GET_TASKS"/>
         <permission name="android.permission.SET_MEDIA_KEY_LISTENER"/>
         <permission name="android.permission.SET_VOLUME_KEY_LONG_PRESS_LISTENER"/>
+        <permission name="android.permission.SOUND_TRIGGER_RUN_IN_BATTERY_SAVER"/>
         <permission name="android.permission.START_ACTIVITIES_FROM_BACKGROUND"/>
         <permission name="android.permission.STOP_APP_SWITCHES"/>
         <permission name="android.permission.WRITE_APN_SETTINGS"/>
@@ -305,6 +308,7 @@
         <permission name="android.permission.CHANGE_CONFIGURATION"/>
         <permission name="android.permission.CONNECTIVITY_INTERNAL"/>
         <permission name="android.permission.DISPATCH_PROVISIONING_MESSAGE"/>
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
         <permission name="android.permission.INVOKE_CARRIER_SETUP"/>
         <permission name="android.permission.LOCAL_MAC_ADDRESS"/>
         <permission name="android.permission.MANAGE_FINGERPRINT"/>

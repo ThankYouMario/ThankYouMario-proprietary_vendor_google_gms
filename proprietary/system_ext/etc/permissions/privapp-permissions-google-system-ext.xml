@@ -1,14 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
-This XML file declares which signature|privileged permissions should be granted to
-privileged Google applications in GMS devices.
--->
+<?xml version="1.0" ?>
 <permissions>
     <privapp-permissions package="com.google.android.feedback">
         <permission name="android.permission.READ_LOGS"/>
         <permission name="android.permission.PACKAGE_USAGE_STATS"/>
     </privapp-permissions>
-
     <privapp-permissions package="com.google.android.gsf">
         <permission name="android.permission.ACCESS_CACHE_FILESYSTEM"/>
         <permission name="android.permission.BACKUP"/>
@@ -30,17 +25,16 @@ privileged Google applications in GMS devices.
         <permission name="android.permission.WRITE_GSERVICES"/>
         <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
     </privapp-permissions>
-
     <privapp-permissions package="com.google.android.onetimeinitializer">
         <permission name="android.permission.CHANGE_COMPONENT_ENABLED_STATE"/>
     </privapp-permissions>
-
     <privapp-permissions package="com.google.android.setupwizard">
         <permission name="android.permission.BACKUP"/>
         <permission name="android.permission.CHANGE_COMPONENT_ENABLED_STATE"/>
         <permission name="android.permission.CHANGE_CONFIGURATION"/>
         <permission name="android.permission.CONNECTIVITY_INTERNAL"/>
         <permission name="android.permission.DISPATCH_PROVISIONING_MESSAGE"/>
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
         <permission name="android.permission.INVOKE_CARRIER_SETUP"/>
         <permission name="android.permission.LOCAL_MAC_ADDRESS"/>
         <permission name="android.permission.MANAGE_DEVICE_ADMINS"/>
