@@ -164,6 +164,7 @@
         <permission name="android.permission.CAPTURE_AUDIO_HOTWORD"/>
         <permission name="android.permission.CAPTURE_AUDIO_OUTPUT"/>
         <permission name="android.permission.CHANGE_DEVICE_IDLE_TEMP_WHITELIST"/>
+        <permission name="android.permission.COMPANION_APPROVE_WIFI_CONNECTIONS"/>
         <permission name="android.permission.CONNECTIVITY_USE_RESTRICTED_NETWORKS"/>
         <permission name="android.permission.CONTROL_DISPLAY_SATURATION"/>
         <permission name="android.permission.CONTROL_INCALL_EXPERIENCE"/>
