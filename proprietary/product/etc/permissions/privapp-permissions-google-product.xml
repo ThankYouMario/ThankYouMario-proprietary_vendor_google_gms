@@ -40,6 +40,7 @@
         <permission name="android.permission.SUBSTITUTE_NOTIFICATION_APP_NAME"/>
         <permission name="android.permission.UPDATE_DEVICE_STATS"/>
         <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+        <permission name="com.android.permission.USE_INSTALLER_V2"/>
     </privapp-permissions>
     <privapp-permissions package="com.google.android.apps.actionsservice">
         <permission name="android.permission.CALL_PRIVILEGED"/>
@@ -101,6 +102,7 @@
     </privapp-permissions>
     <privapp-permissions package="com.google.android.apps.turbo">
         <permission name="android.permission.ACCESS_AMBIENT_LIGHT_STATS"/>
+        <permission name="android.permission.BATTERY_PREDICTION"/>
         <permission name="android.permission.BATTERY_STATS"/>
         <permission name="android.permission.BRIGHTNESS_SLIDER_USAGE"/>
         <permission name="android.permission.CHANGE_APP_IDLE_STATE"/>
@@ -203,6 +205,7 @@
         <permission name="android.permission.RECOVERY"/>
         <permission name="android.permission.RECOVER_KEYSTORE"/>
         <permission name="android.permission.REMOTE_DISPLAY_PROVIDER"/>
+        <permission name="android.permission.RENOUNCE_PERMISSIONS"/>
         <permission name="android.permission.RESET_PASSWORD"/>
         <permission name="android.permission.SCORE_NETWORKS"/>
         <permission name="android.permission.SEND_SMS_NO_CONFIRMATION"/>
